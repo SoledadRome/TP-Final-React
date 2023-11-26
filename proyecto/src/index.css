@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+/*Importé la fuente de Google Fonts*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/*Imagen de fondo traida de Unplash*/
+body {
+	font-size: 1.6rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-image: url("./assets/estrela.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 8rem;
+    text-shadow: 0 0 15px #00ffff;
+    color: greenyellow;
+    font-family: 'Lilita One', sans-serif;
+    animation: title 1s infinite;
+    text-align: center;
+    margin-top: 7%;
+
+}
+
+/*Efecto en el titulo*/
+@keyframes title{
+    50%{
+        text-shadow: 0 0 15px #ffff00;
+        color: #00ffff;
+    }
+}
+
+.container {
+	width: 90%;
+	max-width: 120rem;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+/*Estilizo la caja de busqueda*/
+.filtrar {
+	
+ margin: 4% 26%;
+ display: flex;
+ flex-direction: column;
+		
+}
+
+.Find{
+    width: 6rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #00ffff;
+    padding: auto;
+    color: solid #ffff;
+    text-decoration: none;
+    border-style: none;
+	margin: 2px;
+}
+
+input {
+	width: 40rem;
+    height: 4rem;
+	margin-left: 50px;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #1c272e;
+    padding: 1rem;
+    color: #ffff;
+    font-family: 'Lilita One', sans-serif;
+    border-style: none;
+	text-align: center;
+}
+
+#Filtrar{
+    height: 2rem;
+    margin-top: 30px;
+    width: 7rem;
+    margin-left: 42%;
+    background-color: #1c272e;
+    border-style: none;
+    border-radius: 7px;
+
+}
+
+/*Estilizo las Tarjetas*/
+
+.lista-personajes {
+	width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container-tarjeta {
+	padding: 2%;
+    margin: 5%;
+    width: 20rem;
+    background-color: #00ffff;
+    border-radius: 10px;
+}
+
+.tarjeta{
+	margin: 25px;
+}
+.img-card{
+    height: 195px;
+    border-radius: 10px;
+    margin-left: -1px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
